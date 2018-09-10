@@ -1,0 +1,274 @@
+1. Freshman Computer Science Seminar
+Units: 1
+
+Seminar, one hour; discussion, one hour. Introduction to department resources and principal topics and key ideas in computer science and computer engineering. Assignments given to bolster independent study and writing skills. Letter grading.
+
+19. Fiat Lux Freshman Seminars
+Units: 1
+
+Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.
+
+30. Principles and Practices of Computing
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and exploration through design and implementation of computer programs. Key topics are data types including integers, strings, and lists; control structures, including conditionals and loops; and functional decomposition. Letter grading.
+
+31. Introduction to Computer Science I
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from computer science theory and applications. Letter grading.
+
+32. Introduction to Computer Science II
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer science applications. Letter grading.
+
+33. Introduction to Computer Organization
+Units: 5
+
+Lecture, four hours; discussion, two hours; outside study, nine hours. Enforced requisite: course 32. Introductory course on computer architecture, assembly language, and operating systems fundamentals. Number systems, machine language, and assembly language. Procedure calls, stacks, interrupts, and traps. Assemblers, linkers, and loaders. Operating systems concepts: processes and process management, input/output (I/O) programming, memory management, file systems. Letter grading.
+
+35L. Software Construction Laboratory
+Units: 3
+
+Laboratory, four hours; outside study, five hours. Requisite: course 31. Fundamentals of commonly used software tools and environments, particularly open-source tools to be used in upper-division computer science courses. Letter grading.
+
+M51A. Logic Design of Digital Systems
+Units: 4
+
+(Same as Electrical and Computer Engineering M16.) Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to digital systems. Specification and implementation of combinational and sequential systems. Standard logic modules and programmable logic arrays. Specification and implementation of algorithmic systems: data and control sections. Number systems and arithmetic algorithms. Error control codes for digital information. Letter grading.
+
+97. Variable Topics in Computer Science
+Units: 1 to 4
+
+Lecture, one to four hours; discussion, zero to two hours. Designed for freshmen/sophomores. Variable topics in computer science not covered in regular computer science courses. May be repeated once for credit with topic or instructor change. Letter grading.
+
+99. Student Research Program
+Units: 1 to 2
+
+Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.
+
+111. Operating Systems Principles
+Units: 5
+
+Lecture, four hours; laboratory, two hours; outside study, nine hours. Enforced requisites: courses 32, 33, 35L. Introduction to operating systems design and evaluation. Computer software systems performance, robustness, and functionality. Kernel structure, bootstrapping, input/output (I/O) devices and interrupts. Processes and threads; address spaces, memory management, and virtual memory. Scheduling, synchronization. File systems: layout, performance, robustness. Distributed systems: networking, remote procedure call (RPC), asynchronous RPC, distributed file systems, transactions. Protection and security. Exercises involving applications using, and internals of, real-world operating systems. Letter grading.
+
+112. Modeling Uncertainty in Information Systems
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 111. Designed for juniors/seniors. Probability and stochastic process models as applied in computer science. Basic methodological tools include random variables, conditional probability, expectation and higher moments, Bayes theorem, Markov chains. Applications include probabilistic algorithms, evidential reasoning, analysis of algorithms and data structures, reliability, communication protocol and queueing models. Letter grading.
+
+117. Computer Networks: Physical Layer
+Units: 4
+
+(Formerly numbered M117.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Not open to students with credit for course M171L. Introduction to fundamental computer communication concepts underlying and supporting modern networks, with focus on wireless communications and media access layers of network protocol stack. Systems include wireless LANs (IEEE802.11) and ad hoc wireless and personal area networks (e.g., Bluetooth, ZigBee). Experimental project based on mobile radio-equipped devices (smart phones, tablets, etc.) as sensor platforms for personal applications such as wireless health, positioning, and environment awareness, and experimental laboratory sessions included. Letter grading.
+
+118. Computer Network Fundamentals
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 111. Designed for juniors/seniors. Introduction to design and performance evaluation of computer networks, including such topics as what protocols are, layered network architecture, Internet protocol architecture, network applications, transport protocols, routing algorithms and protocols, internetworking, congestion control, and link layer protocols including Ethernet and wireless channels. Letter grading.
+
+M119. Fundamentals of Embedded Networked Systems
+Units: 4
+
+(Same as Electrical and Computer Engineering M119.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 118, 33. Design trade-offs and principles of operation of cyber physical systems such as devices and systems constituting Internet of Things. Topics include signal propagation and modeling, sensing, node architecture and operation, and applications. Letter grading.
+
+CM121. Introduction to Bioinformatics
+Units: 4
+
+(Same as Chemistry CM160A.) Lecture, four hours; discussion, two hours. Requisites: course 32. Prior knowledge of biology not required. Designed for engineering students as well as students from biological sciences and medical school. Introduction to bioinformatics and methodologies, with emphasis on concepts and inventing new computational and statistical techniques to analyze biological data. Focus on sequence analysis and alignment algorithms. Concurrently scheduled with course CM221. P/NP or letter grading.
+
+CM122. Algorithms in Bioinformatics
+Units: 4
+
+(Same as Chemistry CM160B.) Lecture, four hours; discussion, two hours. Requisites: course 32.  Course CM121 is not requisite to CM122. Designed for engineering students as well as students from biological sciences and medical school. Development and application of computational approaches to biological questions, with focus on formulating interdisciplinary problems as computational problems and then solving these problems using algorithmic techniques. Computational techniques include those from statistics and computer science. Concurrently scheduled with course CM222. Letter grading.
+
+CM124. Computational Genetics
+Units: 4
+
+(Same as Human Genetics CM124.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32. Designed for engineering students as well as students from biological sciences and medical school. Introduction to computational analysis of genetic variation and computational interdisciplinary research in genetics. Topics include introduction to genetics, identification of genes involved in disease, inferring human population history, technologies for obtaining genetic information, and genetic sequencing. Focus on formulating interdisciplinary problems as computational problems and then solving those problems using computational techniques from statistics and computer science. Concurrently scheduled with course CM224. Letter grading.
+
+130. Software Engineering
+Units: 4
+
+Lecture, four hours; laboratory, two hours; outside study, six hours. Requisites: courses 111, 131. Recommended requisite: Engineering 183EW or 185EW. Structured programming, program specification, program proving, modularity, abstract data types, composite design, software tools, software control systems, program testing, team programming. Letter grading.
+
+131. Programming Languages
+Units: 4
+
+Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisites: courses 33, 35L. Basic concepts in design and use of programming languages, including abstraction, modularity, control mechanisms, types, declarations, syntax, and semantics. Study of several different language paradigms, including functional, object-oriented, and logic programming. Letter grading.
+
+132. Compiler Construction
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 131. Compiler structure; lexical and syntactic analysis; semantic analysis and code generation; theory of parsing. Letter grading.
+
+133. Parallel and Distributed Computing
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 111, 131. Distributed memory and shared memory parallel architectures; asynchronous parallel languages: MPI, Maisie; primitives for parallel computation: specification of parallelism, interprocess communication and synchronization; design of parallel programs for scientific computation and distributed systems. Letter grading.
+
+136. Introduction to Computer Security
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 118. Introduction to basic concepts of information security necessary for students to understand risks and mitigations associated with protection of systems and data. Topics include security models and architectures, security threats and risk analysis, access control and authentication/authorization, cryptography, network security, secure application design, and ethics and law. Letter grading.
+
+C137A. Prototyping Programming Languages
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 131. How different programming language paradigms provide dramatically different ways of thinking about computation and offer trade-offs on many dimensions, such as modularity, extensibility, expressiveness, and safety. Concrete exploration of three major programming paradigms -- functional, object-oriented, and logic programming -- by prototyping implementations of languages in each. Analysis of prototypes to shed light on design and structural properties of each language and paradigm and to allow easy comparison against one another. Hands-on experience implementing new abstractions, both as stand-alone languages and as libraries in existing languages. Concurrently scheduled with course C237A. Letter grading.
+
+C137B. Programming Language Design
+Units: 4
+
+Seminar, four hours; outside study, eight hours. Enforced requisite: course C137A. Study of various programming language designs, from computing history and research literature, that attempt to address problems of software systems that are bloated, buggy, and difficult to maintain and extend despite trend in computing toward ever higher levels of abstraction for programming. Hands-on experience designing, prototyping, and evaluating new languages, language abstractions, and/or programming environments. Concurrently scheduled with course C237B. Letter grading.
+
+143. Database Systems
+Units: 4
+
+Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 111. Information systems and database systems in enterprises. File organization and secondary storage structures. Relational model and relational database systems. Network, hierarchical, and other models. Query languages. Database design principles. Transactions, concurrency, and recovery. Integrity and authorization. Letter grading.
+
+144. Web Applications
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 143. Important concepts and theory for building effective and safe Web applications and first-hand experience with basic tools. Topics include basic Web architecture and protocol, XML and XML query language, mapping between XML and relational models, information retrieval model and theory, security and user model, Web services and distributed transactions. Letter grading.
+
+145. Introduction to Data Mining
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 180. Introductory survey of data mining (process of automatic discovery of patterns, changes, associations, and anomalies in massive databases), knowledge engineering, and wide spectrum of data mining application areas such as bioinformatics, e-commerce, environmental studies, financial markets, multimedia data processing, network monitoring, and social service analysis. Letter grading.
+
+M146. Introduction to Machine Learning
+Units: 4
+
+(Same as Electrical and Computer Engineering M146.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 33. Introduction to breadth of data science. Foundations for modeling data sources, principles of operation of common tools for data analysis, and application of tools and models to data gathering and analysis. Topics include statistical foundations, regression, classification, kernel methods, clustering, expectation maximization, principal component analysis, decision theory, reinforcement learning and deep learning. Letter grading.
+
+M151B. Computer Systems Architecture
+Units: 4
+
+(Same as Electrical and Computer Engineering M116C.) Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 33. Recommended: courses 111, and M152A or Electrical and Computer Engineering M116L. Computer system organization and design, implementation of CPU datapath and control, instruction set design, memory hierarchy (caches, main memory, virtual memory) organization and management, input/output subsystems (bus structures, interrupts, DMA), performance evaluation, pipelined processors. Letter grading.
+
+M152A. Introductory Digital Design Laboratory
+Units: 2
+
+(Same as Electrical and Computer Engineering M116L.) Laboratory, four hours; outside study, two hours. Hands-on design, implementation, and debugging of digital logic circuits, use of computer-aided design tools for schematic capture and simulation, implementation of complex circuits using programmed array logic, design projects. Letter grading.
+
+152B. Digital Design Project Laboratory
+Units: 4
+
+Laboratory, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course M151B. Recommended: Engineering 183EW or 185EW. Limited to seniors. Design and implementation of complex digital subsystems using field-programmable gate arrays (e.g., processors, special-purpose processors, device controllers, and input/output interfaces). Students work in teams to develop and implement designs and to document and give oral presentations of their work. Letter grading.
+
+161. Fundamentals of Artificial Intelligence
+Units: 4
+
+Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 180. Introduction to fundamental problem solving and knowledge representation paradigms of artificial intelligence. Introduction to Lisp with regular programming assignments. State-space and problem reduction methods, brute-force and heuristic search, planning techniques, two-player games. Knowledge structures including predicate logic, production systems, semantic nets and primitives, frames, scripts. Special topics in natural language processing, expert systems, vision, and parallel architectures. Letter grading.
+
+168. Computational Methods for Medical Imaging
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32. Theory and practice of image acquisition including angiography, computed tomography (CT), and magnetic resonance (MR). Project-based course covers applied topics in medical imaging including image processing, atlasing, predictive modeling, personalized medicine, data driven and machine learning methods. Letter grading.
+
+170A. Mathematical Modeling and Methods for Computer Science
+Units: 4
+
+Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisites: course 180. Introduction to methods for modeling and simulation using interactive computing environments. Extensive coverage of methods for numeric and symbolic computation, matrix algebra, statistics, floating point, optimization, and spectral analysis. Emphasis on applications in simulation of physical systems. Letter grading.
+
+M171L. Data Communication Systems Laboratory
+Units: 2 to 4
+
+(Same as Electrical and Computer Engineering M171L.) Laboratory, four to eight hours; outside study, two to four hours. Recommended preparation: course M152A. Limited to seniors. Not open to students with credit for course M117. Interpretation of analog-signaling aspects of digital systems and data communications through experience in using contemporary test instruments to generate and display signals in relevant laboratory setups. Use of oscilloscopes, pulse and function generators, baseband spectrum analyzers, desktop computers, terminals, modems, PCs, and workstations in experiments on pulse transmission impairments, waveforms and their spectra, modem and terminal characteristics, and interfaces. Letter grading.
+
+172. Real-Time Three-Dimensional Animation
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 32. Introduction to handling of geometry, appearance, and motion specifically for real-time virtual environments, both on theoretical and practical levels. Completion of one quality real-time three-dimensional animation by following through from preproduction to postproduction. End products expected to be game demonstrations, storytelling games, or machinima (use of real-time graphics engines to create cinematic productions). Focus on achieving highest quality productions to qualify and submit products to Student Academy Awards competition. Use of Unity Game Engine to make technical decisions to adapt stories to games. Introduction to interaction concepts, enabling students to create low-fidelity real-time three-dimensional animation and to concepts in artificial intelligence, enabling them to refine their interactions to create high-fidelity real-time three-dimensional animation. Letter grading.
+
+174A. Introduction to Computer Graphics
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 32. Basic principles behind modern two- and three-dimensional computer graphics systems, including complete set of steps that modern graphics pipelines use to create realistic images in real time. How to position and manipulate objects in scene using geometric and camera transformations. How to create final image using perspective and orthographic transformations. Basics of modeling primitives such as polygonal models and implicit and parametric surfaces. Basic ideas behind color spaces, illumination models, shading, and texture mapping. Letter grading.
+
+174B. Introduction to Computer Graphics: Three-Dimensional Photography and Rendering
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 174A. State of art in three-dimensional photography and image-based rendering. How to use cameras and light to capture shape and appearance of real objects and scenes. Process provides simple way to acquire three-dimensional models of unparalleled detail and realism. Applications of techniques from entertainment (reverse engineering and postprocessing of movies, generation of realistic synthetic objects and characters) to medicine (modeling of biological structures from imaging data), mixed reality (augmentation of video), and security (visual surveillance). Fundamental analytical tools for modeling and inferring geometric (shape) and photometric (reflectance, illumination) properties of objects and scenes, and for rendering and manipulating novel views. Letter grading.
+
+C174C. Computer Animation
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 174A. Designed for juniors/seniors. Introduction to computer animation, including basic principles of character modeling, forward and inverse kinematics, forward and inverse dynamics, motion capture animation techniques, physics-based animation of particles and systems, and motor control. Concurrently scheduled with course C274C. Letter grading.
+
+180. Introduction to Algorithms and Complexity
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 32. Designed for junior/senior Computer Science majors. Introduction to design and analysis of algorithms. Design techniques: divide-and-conquer, greedy method, dynamic programming; selection of prototypical algorithms; choice of data structures and representations; complexity measures: time, space, upper, lower bounds, asymptotic complexity; NP-completeness. Letter grading.
+
+181. Introduction to Formal Languages and Automata Theory
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 180. Designed for junior/senior Computer Science majors. Grammars, automata, and languages. Finite-state languages and finite-state automata. Context-free languages and pushdown story automata. Unrestricted rewriting systems, recursively enumerable and recursive languages, and Turing machines. Closure properties, pumping lemmas, and decision algorithms. Introduction to computability. Letter grading.
+
+M182. Systems Biomodeling and Simulation Basics
+Units: 4
+
+(Same as Bioengineering M182.) Lecture, three hours; discussion, one hour; laboratory, two hours; outside study, six hours.  Designed for undergraduate students in life sciences and engineering. Introduction to explicit modeling and simulation of dynamic biological systems. Presentation of how biology, biochemistry, and physiology underlying dynamic systems biomodeling are transformed into system diagrams and graphs for refining conceptual understanding of their form and function. Structural models, formulated from basic conservation and mass action laws and feedback concepts, are further transformed into first-order differential equations, and implemented in simulation diagrams for quantifying and exploring biosystem properties. Examples show how to use these explicit models to gain clarity on nature of biosystem phenomena, and frame questions and explore new ideas for research. Letter grading.
+
+183. Introduction to Cryptography
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Preparation: knowledge of basic probability theory. Enforced requisite: course 180. Introduction to cryptography, computer security, and basic concepts and techniques. Topics include notions of hardness, one-way functions, hard-core bits, pseudorandom generators, pseudorandom functions and pseudorandom permutations, semantic security, public-key and private-key encryption, key-agreement, homomorphic encryption, private information retrieval and voting protocols, message authentication, digital signatures, interactive proofs, zero-knowledge proofs, collision-resistant hash functions, commitment protocols, and two-party secure computation with static security. Letter grading.
+
+M184. Introduction to Computational and Systems Biology
+Units: 2
+
+(Same as Bioengineering M184 and Computational and Systems Biology M184.) Lecture, two hours; outside study, four hours. Enforced requisites: course 31. Survey course designed to introduce students to computational and systems modeling and computation in biology and medicine, providing motivation, flavor, culture, and cutting-edge contributions in computational biosciences and aiming for more informed basis for focused studies by students with computational and systems biology interests. Presentations by individual UCLA researchers discussing their active computational and systems biology research. P/NP grading.
+
+M185. Research Opportunities in Computational and Systems Biology
+Units: 4
+
+(Same as Computational and Systems Biology M185.) Lecture, two hours; discussion, two hours. Requisites: course M184. Introduction to interdisciplinary laboratory research methods and research opportunities in computational and systems biology to prepare and initiate students for active engagement in research. Presentation of potential projects by faculty members and student visits to individual laboratories and participation in ongoing projects. P/NP or letter grading.
+
+CM186. Computational Systems Biology: Modeling and Simulation of Biological Systems
+Units: 5
+
+(Same as Bioengineering CM186, Computational and Systems Biology M186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, three hours; outside study, eight hours. Dynamic biosystems modeling and computer simulation methods for studying biological/biomedical processes and systems at multiple levels of organization. Control system, multicompartmental, predator-prey, pharmacokinetic (PK), pharmacodynamic (PD), and other structural modeling methods applied to life sciences problems at molecular, cellular (biochemical pathways/networks), organ, and organismic levels. Both theory- and data-driven modeling, with focus on translating biomodeling goals and data into mathematics models and implementing them for simulation and analysis. Basics of numerical simulation algorithms, with modeling software exercises in class and PC laboratory assignments. Concurrently scheduled with course CM286. Letter grading.
+
+CM187. Research Communication in Computational and Systems Biology
+Units: 4
+
+(Same as Bioengineering CM187 and Computational and Systems Biology M187.) Lecture, four hours; outside study, eight hours. Requisite: course CM186. Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction on how to focus on topics of current interest in scientific community, appropriate to student interests and capabilities. Critiques of oral presentations and written progress reports explain how to proceed with search for research results. Major emphasis on effective research reporting, both oral and written. Concurrently scheduled with course CM287. Letter grading.
+
+188. Special Courses in Computer Science
+Units: 4
+
+Lecture, four hours; discussion, two hours; outside study, six hours. Special topics in computer science for undergraduate students taught on experimental or temporary basis, such as those taught by resident and visiting faculty members. May be repeated for credit with topic or instructor change. Letter grading.
+
+188SA. Individual Studies for USIE Facilitators
+Units: 1
+
+Tutorial, to be arranged.  Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.
+
+188SB. Individual Studies for USIE Facilitators
+Units: 1
+
+Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.
+
+188SC. Individual Studies for USIE Facilitators
+Units: 2
+
+Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.
+
+192A. Learning Assistant Pedagogy
+Units: 1 to 4
+
+Seminar, one hour; outside study, two to 11 hours. Training seminar for advanced undergraduate students who are learning assistants (LAs) or peer learning facilitators (PLFs). Exploration of current topics in pedagogy and education research. Students work on communication skills with constant assessment of and feedback on progress. May be repeated for credit. Letter grading.
+
+194. Research Group Seminars: Computer Science
+Units: 4
+
+Seminar, four hours; outside study, eight hours. Designed for undergraduate students who are part of research group. Discussion of research methods and current literature in field or of research of faculty members or students. May be repeated for credit. Letter grading.
+
+199. Directed Research in Computer Science
+Units: 2 to 8
+
+Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit with school approval. Individual contract required; enrollment petitions available in Office of Academic and Student Affairs. Letter grading.
