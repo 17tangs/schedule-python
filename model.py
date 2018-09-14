@@ -99,7 +99,3 @@ for i in range(len(courses)):
     dep_resolve(courses[i], resolved)
     for node in resolved:
         print node.number
-
-
-
-

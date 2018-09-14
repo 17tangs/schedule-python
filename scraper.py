@@ -1,6 +1,7 @@
 from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
+from Subject import Requisite, Subject, Course
 from bs4 import BeautifulSoup
 
 total = 0
@@ -60,10 +61,6 @@ def delParen(s):
 def replaceExceptions(s):
     if "attendance" in s:
         s = ''
-    if 'with grade' in s.lower():
-        a = s.index('with grade')-1
-        b = a + s[a:].index('better')+6 #index of first comma after the 'with grade'
-        s = s[:a]+s[b:]
     s = s.replace("at least", "")
     s = s.replace("satisfaction of Entry-Level Writing requirement", "")
     s = s.replace("satisfaction of English as a Second Language requirement", "")
@@ -74,10 +71,14 @@ def replaceExceptions(s):
     s = s.replace(" taken within past three years", "")
     s = s.replace("one statistics Management", "")
     s = s.replace("satisfaction of Writing II requirement", "")
-    s = s.replce("with grades of A", "")
+    s = s.replace("with grades of A", "")
+    if 'with grade' in s.lower():
+        a = s.index('with grade')-1
+        b = a + s[a:].index('better')+6 #index of first comma after the 'with grade'
+        s = s[:a]+s[b:]
     return s
 
-def addSubject(c):
+def addSubject(c,subject):
     for i in range(len(c)):
         c[i] = c[i].replace('courses', subject).replace('course', subject)
     wordlist = []
@@ -85,7 +86,10 @@ def addSubject(c):
         words = [s for s in c[i].split(' ') if s!='']
         wordlist.append(words)
     if wordlist != [] and len(wordlist[0]) == 1:
-        c[0] = subject + ' ' + wordlist[0][0]
+        s = wordlist[0][0]
+        wordlist[0][0] = subject
+        wordlist[0].append(s)
+        c[0] = subject + ' ' + s
     for i in range(len(wordlist)):
         if len(wordlist[i]) == 1:
             j = i - 1
@@ -95,22 +99,83 @@ def addSubject(c):
             c[i] = subj + ' ' + wordlist[i][0]
     return c;
 
+def strip_course_number(s):
+    while not s[0].isdigit():
+        s = s[1:]
+    while not s[-1].isdigit():
+        s = s[:-1]
+    return s
+
+
+
+NUMBERS = ['zero', 'one', 'two', 'three','four','five', 'six', 'seven', 'eight', 'nine', 'ten']
+
+def parse_from(s, subject):
+    res = s.split("from")
+    n = res[0].lower().split()[-2]
+    if n == "any":
+        number = 1
+    else:
+        number = NUMBERS.index(res[0].lower().split()[-2])
+    if "through" in res[1]:
+        ends = [w.strip() for w in res[1].split("through")]
+        begin = int(strip_course_number(ends[0]))
+        end = int(strip_course_number(ends[1]))
+        courses = [ends[0]]
+        for i in range(1, end-begin):
+            courses.append(str(begin+i))
+        courses.append(ends[1])
+        for i in range(len(courses)):
+            courses[i] = subject + ' ' + courses[i]
+    elif "," in res[1]:
+        courses = [si.strip() for si in res[1].split(",") if si.strip() != ""]
+        courses = joinMajor(', ', courses)
+        courses = addSubject(courses, subject)
+    else:
+        courses = []
+    rcl = []
+    for c in courses:
+        rc = Requisite(c, 1)
+        rcl.append(rc)
+    r = Requisite("", number, rcl)
+    print(r)
+    return r
+
+
+
+
 
 f = open('courses.txt', 'w')
 
 def parse_req(s, subject):
     s = replaceExceptions(s)
     s = delParen(s)
-
-    if "and" not in s and "or" not in s:
-        c = [si.strip() for si in s.split(",") if si.strip() != ""]
-        c = joinMajor(', ', c)
-        for i in range(len(c)):
-            if 'from' in c[i]:
-                t = c[i].split("from")
-        c = addSubject(c)
-        print(c)
+    rcl = []
+    if "and " not in s and "or " not in s:
+        if 'from' in s and ',' not in s[:s.index('from')]:
+            r = parse_from(s, subject)
+            c = r
+        else:
+            c = [si.strip() for si in s.split(",") if si.strip() != ""]
+            c = joinMajor(', ', c)
+            i = 0
+            while i < len(c):
+                if 'from' in c[i]:
+                    r = parse_from(c[i], subject)
+                    rcl.append(r)
+                    c.remove(c[i])
+                    i -= 1
+                i += 1
+            c = addSubject(c,subject)
+            for course in c:
+                rc = Requisite(course, 1)
+                rcl.append(rc)
+            r = Requisite("", len(rcl), rcl)
+        print(r)
         f.write(str(c) + '\n')
+        return r
+    # if "and " not in s and "or " in s:
+    #     print(s)
 
 
 
@@ -151,6 +216,7 @@ def get_courses(url):
 
 
 links = get_links();
+#get_courses("https://www.registrar.ucla.edu/Academics/Course-Descriptions/Course-Details?SA=LIFESCI&funsel=3")
 #get_courses("https://www.registrar.ucla.edu/Academics/Course-Descriptions/Course-Details?SA=MUSC&funsel=3")
 # get_courses("https://www.registrar.ucla.edu/Academics/Course-Descriptions/Course-Details?SA=CHEM&funsel=3")
 for i in range(len(links)):
